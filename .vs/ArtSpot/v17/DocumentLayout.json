@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\ArtSpot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|d:\\desktop\\artspot\\artspot\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\admin\\admin_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\admin\\admin_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\user\\all_art.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\user\\all_art.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\user\\pro_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\user\\pro_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|D:\\Desktop\\ArtSpot\\artspot\\views\\shared\\_userlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{801F114B-79E9-4371-8D79-D096B6B5BFA4}|ArtSpot\\ArtSpot.csproj|solutionrelative:artspot\\views\\shared\\_userlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_UserLayoutPage.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Shared\\_UserLayoutPage.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Shared\\_UserLayoutPage.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Shared\\_UserLayoutPage.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Shared\\_UserLayoutPage.cshtml",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAswK8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T08:22:48.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAKoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T08:21:14.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin_Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Admin\\Admin_Dashboard.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Admin\\Admin_Dashboard.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Admin\\Admin_Dashboard.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Admin\\Admin_Dashboard.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T12:15:16.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pro_Details.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\User\\Pro_Details.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\User\\Pro_Details.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\User\\Pro_Details.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\User\\Pro_Details.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T16:53:54.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Product\\Details.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAC8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T16:44:44.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "All_Art.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\User\\All_Art.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\User\\All_Art.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\User\\All_Art.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\User\\All_Art.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T15:57:40.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:27:08.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "ArtSpot\\Models\\Model1.edmx",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "ArtSpot\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-07T15:21:11.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T02:47:42.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ArtSpot\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Desktop\\ArtSpot\\ArtSpot\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ArtSpot\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T09:16:57.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

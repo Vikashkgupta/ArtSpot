@@ -1,0 +1,75 @@
+﻿@model ArtSpot.Models.tbl_user
+
+@{
+    ViewBag.Title = "Create";
+}
+<center>
+    <h2>Register</h2>
+
+    @using (Html.BeginForm("Create", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.u_name, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.u_name, new { htmlAttributes = new { @class = "form-control", placeholder = "Name" } })
+            @Html.ValidationMessageFor(model => model.u_name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.u_email, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.u_email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email" } })
+            @Html.ValidationMessageFor(model => model.u_email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.u_password, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.u_password, new { htmlAttributes = new { @class = "form-control", placeholder = "Password" } })
+            @Html.ValidationMessageFor(model => model.u_password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.u_image, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            <input type="file" name="u_image" required class="form-control" placeholder="Image" accept="image/*" alt="Select Image" />
+
+            @* @Html.EditorFor(model => model.u_image, new { htmlAttributes = new { @class = "form-control" } })*@
+            @Html.ValidationMessageFor(model => model.u_image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.u_contact, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.u_contact, new { htmlAttributes = new { @class = "form-control", placeholder = "Contact" } })
+            @Html.ValidationMessageFor(model => model.u_contact, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 w-100">
+            <input type="submit" value="Create" class="btn btn-default btn-dark bg-opacity-10 p-1 px-3 rounded-2 w-100" />
+        </div>
+    </div>
+    <br />
+</div>
+    }
+</center>
+
+<div>
+    Already have an account,<a class="btn-dark bg-opacity-10 p-2 rounded-2" style="text-decoration:none" href="/home/User_Login">Login</a>
+
+</div>

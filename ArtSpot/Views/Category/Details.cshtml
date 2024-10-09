@@ -1,0 +1,42 @@
+﻿@model ArtSpot.Models.tbl_category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tbl_category</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cat_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cat_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cat_image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cat_image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tbl_admin.ad_username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tbl_admin.ad_username)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cat_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

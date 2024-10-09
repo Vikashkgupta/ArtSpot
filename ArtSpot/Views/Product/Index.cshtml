@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ArtSpot.Models.tbl_product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center p-3">All Artwoks</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.pro_image)*@
+            Image
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.pro_name)*@Name
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.pro_des)
+        </th>*@
+        <th>
+            @*@Html.DisplayNameFor(model => model.pro_price)*@Price
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.pro_contact)*@Contact
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.tbl_category.cat_name)*@Category
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.tbl_user.u_name)*@Uploaded by
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="~/Content/Product_Images/@item.pro_image" width="200" />
+            @*@Html.DisplayFor(modelItem => item.pro_image)*@
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pro_name)
+        </td>
+
+        @*<td>
+            @Html.DisplayFor(modelItem => item.pro_des)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.pro_price) ₹
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pro_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tbl_category.cat_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tbl_user.u_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.pro_id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.pro_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.pro_id })
+        </td>
+    </tr>
+}
+
+</table>

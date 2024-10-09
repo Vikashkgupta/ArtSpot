@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ArtSpot.Models.tbl_category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="text-center p-3">All Category</h3>
+
+<p>
+    <a class="btn-dark bg-opacity-10 bg-success p-2 rounded-2" style="text-decoration:none" href="/category/create">Add New Category</a>
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <h4>Name</h4>
+        </th>
+        <th>
+            <h4>Image</h4>
+        </th>
+        <th>
+            <h4>Added by</h4>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cat_name)
+        </td>
+        <td>
+            @* @Html.DisplayFor(modelItem => item.cat_image)*@
+            <img src="~/Content/Cat_Images/@item.cat_image" height="50px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tbl_admin.ad_username)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.cat_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.cat_id })
+        </td>
+    </tr>
+}
+
+</table>

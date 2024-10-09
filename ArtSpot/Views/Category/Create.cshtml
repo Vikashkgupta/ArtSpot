@@ -1,0 +1,64 @@
+﻿@model ArtSpot.Models.tbl_category
+
+@{
+    ViewBag.Title = "Create Category";
+}
+
+
+@using (Html.BeginForm("Create", "Category", FormMethod.Post, new {enctype = "multipart/form-data"})) 
+{
+    @Html.AntiForgeryToken()
+<center>
+    <div class="form-horizontal">
+        <h4 class="p-3">Add Category</h4>
+        <hr />
+        <br />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*  @Html.LabelFor(model => model.cat_name, htmlAttributes: new { @class = "control-label col-md-2" })   *@
+            <div class="col-md-10">
+                <input type="text" name="cat_name" required class="form-control" placeholder="Category Name" />
+                @*  @Html.EditorFor(model => model.cat_name, new { htmlAttributes = new { @class = "form-control" } }) *@
+                @Html.ValidationMessageFor(model => model.cat_name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <br />
+
+        <div class="form-group">
+            @*  @Html.LabelFor(model => model.cat_image, htmlAttributes: new { @class = "control-label col-md-2" }) *@
+            <div class="col-md-10">
+                <input type="file" name="cat_image" required class="form-control" placeholder="Image" accept="image/*" alt="Select Image" />
+
+                @*    @Html.EditorFor(model => model.cat_image, new { htmlAttributes = new { @class = "form-control" } })*@
+                @Html.ValidationMessageFor(model => model.cat_image, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            @*   @Html.LabelFor(model => model.cat_fk_ad, "cat_fk_ad", htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                @Html.DropDownList("cat_fk_ad", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.cat_fk_ad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="form-control" style="background:black; color:white" />
+            </div>
+        </div>
+    </div>
+        </center>
+                    }
+
+<div>
+    <br />
+
+    <a class="btn-dark bg-opacity-10 bg-success p-2 rounded-2" style="text-decoration:none" href="/category/index">Show existing category</a>
+    <br />
+</div>

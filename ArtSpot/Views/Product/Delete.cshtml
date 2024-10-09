@@ -1,0 +1,80 @@
+﻿@model ArtSpot.Models.tbl_product
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tbl_product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.pro_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pro_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pro_image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pro_image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pro_des)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pro_des)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pro_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pro_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pro_contact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pro_contact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tbl_category.cat_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tbl_category.cat_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tbl_user.u_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tbl_user.u_name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

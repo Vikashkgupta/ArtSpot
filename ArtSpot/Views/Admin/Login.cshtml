@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+
+@model ArtSpot.Models.tbl_admin
+
+
+
+<div class="container">
+    <br />
+<h2 class="text-center">Admin Login</h2>
+    <br />
+
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 justify-content-sm-center rounded-2 border-1 opacity-25" style="border:solid 1px gray; background:gray;">
+
+            <center>
+                <form action="/Admin/Login" method="post">
+                    <br />
+
+
+                    <input type="text" class="form-control justify-content-sm-center" placeholder="Username" name="ad_username" />
+
+                    <br />
+
+                    <input type="password" class="form-control" placeholder="Password" name="ad_password" />
+
+                    <br />
+
+                    <input type="submit" value="Login" class="form-control" style="background:black; color:white"/>
+
+                    <br />
+
+
+
+                </form>
+            </center>
+
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+    <br />
+
+</div>

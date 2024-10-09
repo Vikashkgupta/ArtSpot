@@ -1,0 +1,231 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+
+
+
+<br />
+<center>
+    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="200">
+        <g style="order: -1;">
+            <polygon transform="rotate(45 100 100)"
+                     stroke-width="1"
+                     stroke="#d3a410"
+                     fill="none"
+                     points="70,70 148,50 130,130 50,150"
+                     id="bounce"></polygon>
+            <polygon transform="rotate(45 100 100)"
+                     stroke-width="1"
+                     stroke="#d3a410"
+                     fill="none"
+                     points="70,70 148,50 130,130 50,150"
+                     id="bounce2"></polygon>
+            <polygon transform="rotate(45 100 100)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#414750"
+                     points="70,70 150,50 130,130 50,150"></polygon>
+            <polygon stroke-width="2"
+                     stroke=""
+                     fill="url(#gradiente)"
+                     points="100,70 150,100 100,130 50,100"></polygon>
+            <defs>
+                <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente">
+                    <stop style="stop-color: #1e2026;stop-opacity:1" offset="20%"></stop>
+                    <stop style="stop-color:#414750;stop-opacity:1" offset="60%"></stop>
+                </linearGradient>
+            </defs>
+            <polygon transform="translate(20, 31)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#b7870f"
+                     points="80,50 80,75 80,99 40,75"></polygon>
+            <polygon transform="translate(20, 31)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="url(#gradiente2)"
+                     points="40,-40 80,-40 80,99 40,75"></polygon>
+            <defs>
+                <linearGradient y2="100%" x2="0%" y1="-17%" x1="10%" id="gradiente2">
+                    <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+                    <stop style="stop-color:#d3a51054;stop-opacity:1"
+                          offset="100%"
+                          id="animatedStop"></stop>
+                </linearGradient>
+            </defs>
+            <polygon transform="rotate(180 100 100) translate(20, 20)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#d3a410"
+                     points="80,50 80,75 80,99 40,75"></polygon>
+            <polygon transform="rotate(0 100 100) translate(60, 20)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="url(#gradiente3)"
+                     points="40,-40 80,-40 80,85 40,110.2"></polygon>
+            <defs>
+                <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente3">
+                    <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+                    <stop style="stop-color:#d3a51054;stop-opacity:1"
+                          offset="100%"
+                          id="animatedStop"></stop>
+                </linearGradient>
+            </defs>
+            <polygon transform="rotate(45 100 100) translate(80, 95)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#ffe4a1"
+                     points="5,0 5,5 0,5 0,0"
+                     id="particles"></polygon>
+            <polygon transform="rotate(45 100 100) translate(80, 55)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#ccb069"
+                     points="6,0 6,6 0,6 0,0"
+                     id="particles"></polygon>
+            <polygon transform="rotate(45 100 100) translate(70, 80)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#fff"
+                     points="2,0 2,2 0,2 0,0"
+                     id="particles"></polygon>
+            <polygon stroke-width="2"
+                     stroke=""
+                     fill="#292d34"
+                     points="29.5,99.8 100,142 100,172 29.5,130"></polygon>
+            <polygon transform="translate(50, 92)"
+                     stroke-width="2"
+                     stroke=""
+                     fill="#1f2127"
+                     points="50,50 120.5,8 120.5,35 50,80"></polygon>
+        </g>
+    </svg>
+</center>
+<style>
+    .container {
+ // background-color: #414141;
+}
+@@keyframes bounce {
+  0%,
+  100% {
+    translate: 0px 36px;
+  }
+  50% {
+    translate: 0px 46px;
+  }
+}
+@@keyframes bounce2 {
+  0%,
+  100% {
+    translate: 0px 46px;
+  }
+  50% {
+    translate: 0px 56px;
+  }
+}
+
+@@keyframes umbral {
+  0% {
+    stop-color: #d3a5102e;
+  }
+  50% {
+    stop-color: rgba(211, 165, 16, 0.519);
+  }
+  100% {
+    stop-color: #d3a5102e;
+  }
+}
+@@keyframes partciles {
+  0%,
+  100% {
+    translate: 0px 16px;
+  }
+  50% {
+    translate: 0px 6px;
+  }
+}
+#particles {
+  animation: partciles 4s ease-in-out infinite;
+}
+#animatedStop {
+  animation: umbral 4s infinite;
+}
+#bounce {
+  animation: bounce 4s ease-in-out infinite;
+  translate: 0px 36px;
+}
+#bounce2 {
+  animation: bounce2 4s ease-in-out infinite;
+  translate: 0px 46px;
+  animation-delay: 0.5s;
+}
+
+</style>
+
+
+
+
+
+
+
+
+<main aria-labelledby="title">
+    <h2 id="title" class="text-center p-2">About Us</h2>
+
+    <h3>Welcome to ArtSpot!</h3>
+
+    <p>At ArtSpot, we believe in the transformative power of art and its ability to bring people together, inspire creativity, and enrich lives. Our platform is dedicated to creating a vibrant online community where artists and art enthusiasts can connect, share, and discover incredible artworks from around the world.</p>
+
+    <h3>Our Mission</h3>
+
+    <p>Our mission is to provide a dynamic and inclusive space for artists to showcase their work and for art lovers to explore and purchase unique pieces. We aim to democratize the art world by making it accessible to everyone, whether you're an emerging artist looking to gain exposure or a seasoned collector searching for the next addition to your gallery.</p>
+
+    <h3>What We Offer</h3>
+
+    <ul>
+        <li>
+            <h4>For Artists</h4>
+
+            <p>
+                ArtSpot offers a comprehensive portfolio management system, allowing artists to create detailed profiles, upload their artwork, and reach a global audience. We provide tools for promoting your art, engaging with potential buyers, and participating in virtual exhibitions and events.
+            </p>
+        </li>
+        <li>
+            <h4>For Art Enthusiasts</h4>
+
+            <p>
+                Discover a diverse range of artworks across various styles and mediums. Our AI-based recommendation system helps you find pieces that match your tastes. Engage with artists, leave reviews, and create a personalized wishlist of your favorite artworks.
+
+            </p>
+        </li>
+
+        <li>
+            <h4>For Collectors and Buyers</h4>
+
+            <p>
+                Enjoy a seamless purchasing experience with secure payment options. Explore exclusive auctions, participate in events, and access curated collections from emerging and established artists.
+
+            </p>
+        </li>
+
+    </ul>
+
+
+
+
+    <h3>Our Vision</h3>
+
+    <p>
+        We envision a world where art is accessible to all, where every artist has the opportunity to shine, and where art lovers can easily discover and support the creators they admire. At ArtSpot, we are committed to fostering creativity, community, and connection through the universal language of art.
+        <br />
+        Thank you for being a part of our journey. Together, let's celebrate the beauty of art and the talent of artists everywhere.
+
+    </p>
+
+    <h3>Join Us</h3>
+
+    <p>Become a part of the ArtSpot community today! Whether you're here to share your art, discover new pieces, or simply immerse yourself in the world of creativity, we welcome you with open arms.</p>
+
+</main>
+<br />
