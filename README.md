@@ -1,48 +1,69 @@
-# ArtSpot
+# 🎨 ArtSpot
 
-🎨 ArtSpot is an online art gallery platform built using ASP.NET Core MVC 6. It provides a space for artists to showcase their work and for art enthusiasts to discover and purchase artworks.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Built with ASP.NET Core](https://img.shields.io/badge/ASP.NET-Core-blue)](#)
+[![AI-Enhanced](https://img.shields.io/badge/AI-Recommendations-brightgreen)](#)
 
-## Features
+**ArtSpot** is an online art gallery platform 🖌️ built with **ASP.NET Core MVC 6**.  
+It provides a digital space where artists can showcase their creativity and art lovers can explore, interact with, and purchase artworks — all in one place! 🌐🖼️
 
-- 🖌 *Artist Profiles:* Artists can create profiles on the platform, providing information about themselves and their artwork.
-- 🖼 *Artwork Showcase:* Users can browse through various artworks categorized by style, genre, or artist in an interactive gallery.
-- 💳 *Artwork Purchase:* Users can purchase artworks directly from the platform, facilitating transactions between artists and buyers.
-- ⭐ *Rating and Reviews:* Users can rate and leave reviews for artworks they have purchased or viewed.
-- 💭 *Wishlist:* Users can add artworks to their wishlist for future reference or purchase.
-- 💬 *Community Interaction:* The platform fosters community engagement through features such as comments, discussions, and sharing of artwork.
-- 🎉 *Events and Exhibitions:* ArtSpot features events and exhibitions where artists can showcase their work to a wider audience.
-- 🛠 *Customization Options:* Users have customization options for their profiles or preferences, allowing for a personalized experience.
-- 🤖 *AI-based Artwork Recommendations:* The platform leverages artificial intelligence to provide personalized artwork recommendations based on user preferences and browsing history.
+---
 
-## Technologies Used
+## ✨ Features
 
-- ASP.NET Core MVC 6
-- C# (C Sharp)
-- Entity Framework Core
-- Microsoft SQL Server
-- HTML, CSS, JavaScript
-- React.js (optional, for frontend interactivity)
-- Python (for AI integration)
-- TensorFlow or PyTorch (for AI-based recommendations)
+- 👤 **Artist Profiles:**  
+  Artists can create personalized profiles to showcase their biography and portfolio.
 
-## Getting Started
+- 🖼️ **Artwork Showcase:**  
+  Explore a beautifully categorized gallery — by style, genre, medium, or artist.
 
-1. Clone the repository: git clone https://github.com/radhekingu1/artspot.git
-2. Navigate to the project directory: cd artspot
-3. Restore dependencies: dotnet restore
-4. Update database: dotnet ef database update
-5. Run the application: dotnet run
+- 💸 **Artwork Purchase:**  
+  Users can directly buy artworks via the platform with secure transactions.
 
-## Contributing
+- ⭐ **Ratings & Reviews:**  
+  Viewers can rate and leave reviews on artworks they liked or purchased.
 
-Contributions are welcome! If you'd like to contribute to ArtSpot, please follow these steps:
+- 🧡 **Wishlist System:**  
+  Save favorite artworks to your wishlist for future purchases or admiration.
 
-1. Fork the repository
-2. Create a new branch: git checkout -b feature/new-feature
-3. Make your changes and commit them: git commit -am 'Add new feature'
-4. Push to the branch: git push origin feature/new-feature
-5. Submit a pull request
+- 💬 **Community Engagement:**  
+  Comment on artworks, start discussions, and interact with the art-loving community.
 
-## License
+- 🎉 **Events & Exhibitions:**  
+  Participate in virtual exhibitions and special art events for better reach.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- 🛠️ **Profile Customization:**  
+  Personalize user or artist profiles to reflect identity and preferences.
+
+- 🤖 **AI-based Recommendations:**  
+  Get smart artwork suggestions based on your taste and browsing history (powered by ML models).
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer          | Technology Used                      |
+|----------------|--------------------------------------|
+| Backend        | ASP.NET Core MVC 6, C#               |
+| ORM            | Entity Framework Core                |
+| Database       | Microsoft SQL Server                 |
+| Frontend       | HTML, CSS, JavaScript, React.js *(optional)* |
+| AI Integration | Python with TensorFlow / PyTorch     |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Vikashkgupta/ArtSpot.git
+cd ArtSpot
+
+# 2. Restore project dependencies
+dotnet restore
+
+# 3. Apply database migrations
+dotnet ef database update
+
+# 4. Run the application
+dotnet run
